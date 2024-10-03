@@ -1,9 +1,12 @@
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 0; 
 }
 
+html {
+    scroll-behavior: smooth; /* Ajouté ici pour le défilement fluide */
+}
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
@@ -176,6 +179,10 @@ footer a {
     opacity: 0;
     transform: translateY(30px);
     transition: all 0.5s ease-in-out;
+}
+.fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 @keyframes fadeIn {
