@@ -1,0 +1,1 @@
+créer le repository , push les fichiers (html , css , js ) , Aller a l'onglet Settings -> Section Pages -> Branch (remplacer None avec la branch contenant les fichiers ) puis cliquer sur le bouton save . Patientez quelques minutes .
